@@ -51,7 +51,7 @@ def conditional_entropy(pxy, px, total_pairs):
 
 
 def mutual_information(h_x, h_y, h_y_given_x):
-    return h_x + h_y - h_y_given_x
+    return h_y - h_y_given_x
 
 
 def main():
